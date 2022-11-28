@@ -1,0 +1,46 @@
+laravel new MakGamingShop
+
+php artisan serve
+
+php artisan make:controller HomeController
+
+kono page view koraite hoile prothome controlller create krte hbe then web.php te route likhte hobe then,
+controller a function ta likhte hobe
+
+******
+create registration and login in laravel
+ 1. composer require laravel/jetstream
+ 2. php artisan jetstream:install livewire
+ 3. npm install
+ 4. npm run dev
+5 number ta run korar age usertype thik korte hbe, app/database/migrations e gye ze table
+ta create kora hoise oikhane table er usertype thik kora lagbe for admin n user 0 or 1
+ 5. php artisan migrate
+
+php artisan make:controller OrderController
+
+
+php artisan make:model Gpu -m  //database a table make korar jonno 
+then, php artisan migrate
+
+**for upload image **
+
+$image = $request->image;
+$imagename = time().'.'.$image->getClientOriginalExtension();
+$request->image->move('gpuimage', $imagename);
+
+***zevabe onno page er route execute hoy***
+1. href="{{ url('/storeitems') }}"
+2. web.php te-- Route::get("/storeitems", [HomeController::class, "storeitems"]);
+3. homecontroller a-- public function storeitems(){
+                              return view('storeitems');
+                      }
+     
+******
+
+
+
+
+
+
+
