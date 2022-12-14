@@ -1,10 +1,10 @@
 # MakgamingShop_Laravel
 
-download the folder
-keep it in the localhost directory on C drive
-open XAMPP Then, Start Apache and MySQL
-Go to the localhost directory and open CMD
-Then, write the command
-php artisan serve
-copy the URL from cmd Then, paste it into web browser 
-Run the URL
+1. download the folder
+2. keep it in the localhost directory on C drive
+3. open XAMPP Then, Start Apache and MySQL
+4. Go to the localhost directory and open CMD
+5. Then, write the command
+6. php artisan serve
+7. copy the URL from cmd Then, paste it into web browser 
+8. Run the URL
